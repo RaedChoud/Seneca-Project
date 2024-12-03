@@ -11,6 +11,7 @@ class Poem{
     float rotation;
     int numLines;
     Poem(String filename){ 
+        textSize(25);
         start=0;
         runner=0;
         counter=0;
